@@ -1,0 +1,278 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+  .menuItem{
+    display: block;
+  }
+  .menu .menuItem:hover,
+.menuItem.active {
+  background: #00ffaa;
+
+}
+.submenu {
+  left: 35%;
+  width: 70%;
+}
+.btn-menu{
+    display: block;
+}
+.navigation .button {
+  padding: 10px 5px;
+}
+
+.best-course {
+  padding: 5px 20px;
+}
+
+.heroContent h1 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.heroContent {
+  padding: 30px;
+}
+
+.heroContent .btn-group .button {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navigation {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .menuItem{
+    display: block;
+  }
+  .submenu {
+    left: 35%;
+    width: 70%;
+  }
+  .btn-menu {
+    display: block;
+}
+  .menu .menuItem:hover,
+  .menuItem.active {
+    background: #00ffaa;
+  }
+  .popular-item .btn-group .button {
+    padding: 5px 5px;
+    font-size: 16px;
+}
+.best-course {
+  padding: 5px 20px;
+}
+
+.heroContent h1 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.heroContent {
+  padding: 30px;
+}
+
+.heroContent .btn-group .button {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+.course-star i {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.course-star-count span {
+  padding: 5px 5px;
+  font-size: 14px;
+}
+.popular-content h4 {
+  font-size: 18px;
+  padding: 5px 0;
+}
+.course-info span {
+  padding: 5px;
+  font-size: 11px;
+}
+.popular-item .btn-group .button {
+  font-size: 12px;
+}
+
+.popular-item .btn-group {
+  height: 35px;
+  line-height: 35px;
+}
+.navigation .button {
+  padding: 10px 5px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo.menuBar .mobile-menu {
+    display: none;
+  }
+  .logo.menuBar {
+    border-bottom: none;
+    display: inline-block;
+  }
+  .navigation {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    padding: 0
+  }
+
+  .navigation {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }
+  .navigation .button {
+    padding: 27px 15px;
+}
+    .menuItem {
+      margin: 0;
+      margin-right: 10px;
+      padding: 30px 0;
+      color: #000;
+      font-size: 13px;
+      text-transform: uppercase;
+      outline: none;
+  
+  }
+  .menu .menuItem:hover,
+  .menuItem.active {
+    color: #01bc77;
+    background-color: transparent;
+  }
+
+  .submenu {
+    width: 150px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #01bc77;
+}
+.heroContent h1 {
+  font-size: 70px;
+}
+.heroContent .btn-group .button {
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+.category-item .cat-content {
+  width: 150px;
+  height: 60px;
+
+  
+}
+.cat-content h4 {
+  font-size: 16px;
+}
+.cat-content p {
+  font-size: 14px;
+}
+.course-info span {
+  padding: 5px;
+  font-size: 13px;
+}
+
+.popular-content h4 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navigation .button {
+    padding: 27px 15px;
+}
+
+  .menuItem {
+    margin-right: 30px;
+    font-size: 16px;
+  }
+  /* Categories */
+  .category-item .cat-content {
+    width: 200px;
+    height: 70px;
+  
+    
+  }
+  .cat-content h4 {
+    font-size: 20px;
+  }
+  .cat-content p {
+    font-size: 16px;
+  }
+  .ex-cat-item {
+    padding: 15px 30px 0 0;
+}
+
+.ex-cat-item:nth-child(1) {
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding: 0 0 15px 0;
+}
+
+
+.ex-cat-item:last-child {
+    padding-right: 0;
+}
+.popular-content h4 {
+  font-size: 25px;
+  padding: 15px 0;
+}
+.popular-item .btn-group {
+  width: 200px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navigation .button {
+    padding: 27px 15px;
+}
+  /* categories */
+  .ex-cat-item {
+    padding: 15px 30px 0 0;
+}
+
+.ex-cat-item:nth-child(1) {
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding: 0 0 15px 0;
+}
+
+
+.ex-cat-item:last-child {
+    padding-right: 0;
+}
+
+
+}
